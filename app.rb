@@ -10,9 +10,8 @@ class App < Sinatra::Base
     puts "My hometown is toy story"
   end
 
-get '/favorite-song' do
+  get '/favorite-song' do
     puts "My favourite-song is yeepy-ya-yo"
-end
-
+  end
 
 end
