@@ -3,15 +3,15 @@ require_relative 'config/environment'
 class App < Sinatra::Base
 
   get '/name' do
-    # some code to get the medicines and render the correct HTML file
-end
+    puts "My name is Mr.potato"
+  end
 
-get '/hometown' do
-    # some code to get the medicines and render the correct HTML file
-end
+  get '/hometown' do
+    puts "My hometown is toy story"
+  end
 
 get '/favorite-song' do
-    # some code to get the medicines and render the correct HTML file
+    puts "My favourite-song is yeepy-ya-yo"
 end
 
 
